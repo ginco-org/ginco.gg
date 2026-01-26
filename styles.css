@@ -131,9 +131,58 @@ section#socials {
     }
 }
 
-section#team {
+section#projects {
     text-align: center;
     background: #f0f9ed;
+    padding: 60px 20px;
+
+    & h2 {
+        color: #457E35;
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+    }
+
+    & .projects-grid {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    & .project-card {
+        background: white;
+        border-radius: 15px;
+        padding: 30px 40px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-decoration: none;
+        min-width: 250px;
+    }
+
+    & .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 15px rgba(127, 214, 103, 0.3);
+    }
+
+    & .project-card h3 {
+        color: #457E35;
+        margin: 0 0 8px;
+        font-size: 1.5rem;
+    }
+
+    & .project-url {
+        color: #7fd667;
+        font-weight: 600;
+        font-size: 1rem;
+        margin: 0;
+    }
+}
+
+section#team {
+    text-align: center;
+    background: #ffffff;
     padding: 60px 20px;
 
     & h2 {
