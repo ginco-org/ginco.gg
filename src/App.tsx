@@ -91,16 +91,17 @@ const projects = [
       },
     ],
   },
-  {
-    name: "HytaleCodex",
-    description:
-      "A comprehensive database for browsing and exploring Hytale game data.",
-    image: "./assets/HytaleCodexSplash.png",
-    links: [{ href: "https://codex.ginco.gg", label: "Website" }],
-  },
+  // {
+  //   name: "HytaleCodex",
+  //   description:
+  //     "A comprehensive database for browsing and exploring Hytale game data.",
+  //   image: "./assets/HytaleCodexSplash.png",
+  //   links: [{ href: "https://codex.ginco.gg", label: "Website" }],
+  // },
   {
     name: "hytale-markers",
-    description: "Adds a general-purpose location storage to Hytale worlds for plugin development.",
+    description:
+      "Adds a general-purpose location storage to Hytale worlds for plugin development.",
     image: "./assets/HytaleMarkersSplash.png",
     links: [
       { href: "https://github.com/ginco-org/hytale-markers", label: "GitHub" },
@@ -108,7 +109,8 @@ const projects = [
   },
   {
     name: "hytale-codec",
-    description: "KSP-based codec generation for Hytale assets. Annotate your asset classes and let the processor generate the boilerplate AssetBuilderCodec and BuilderCodec wiring at compile time.",
+    description:
+      "KSP-based codec generation for Hytale assets. Annotate your asset classes and let the processor generate the boilerplate AssetBuilderCodec and BuilderCodec wiring at compile time.",
     image: "./assets/HytaleCodecSplash.png",
     links: [
       { href: "https://github.com/ginco-org/hytale-codec", label: "GitHub" },
