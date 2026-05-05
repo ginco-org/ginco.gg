@@ -81,7 +81,7 @@ const projects = [
   {
     name: "Save the Kitty",
     description:
-      "A Hytale adventure world where you embark on a quest to rescue kitties in danger.",
+      "Your cat thought it was a good idea to climb a tree and now needs your help to get back down!",
     image: "./assets/SaveTheKittySplash.png",
     logo: "./assets/SaveTheKittyLogo.png",
     links: [
@@ -100,7 +100,7 @@ const projects = [
   },
   {
     name: "hytale-markers",
-    description: "A library for parsing and working with Hytale marker data.",
+    description: "Adds a general-purpose location storage to Hytale worlds for plugin development.",
     image: "./assets/HytaleMarkersSplash.png",
     links: [
       { href: "https://github.com/ginco-org/hytale-markers", label: "GitHub" },
@@ -108,7 +108,7 @@ const projects = [
   },
   {
     name: "hytale-codec",
-    description: "Encoder and decoder for Hytale's binary file formats.",
+    description: "KSP-based codec generation for Hytale assets. Annotate your asset classes and let the processor generate the boilerplate AssetBuilderCodec and BuilderCodec wiring at compile time.",
     image: "./assets/HytaleCodecSplash.png",
     links: [
       { href: "https://github.com/ginco-org/hytale-codec", label: "GitHub" },
