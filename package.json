@@ -1,0 +1,19 @@
+{
+  "name": "ginco",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run src/render.tsx",
+    "dev": "bun run --watch src/render.tsx"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/bun": "^1.2.0"
+  }
+}
