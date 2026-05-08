@@ -345,7 +345,20 @@ export default function App() {
   return (
     <body>
       <section id="hero">
-        <img src="./assets/ginco.svg" alt="GINCo Logo" />
+        <div id="hero-logo">
+          <video
+            id="hero-logo-video"
+            src="./assets/ginco.webm"
+            autoPlay
+            muted
+            playsInline
+          />
+          <img
+            id="hero-logo-static"
+            src="./assets/ginco.svg"
+            alt="GINCo Logo"
+          />
+        </div>
         <h1>GINCo</h1>
         <p>
           We are a game studio creating immersive experiences in Hytale and
