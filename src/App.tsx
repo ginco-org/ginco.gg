@@ -209,15 +209,6 @@ const people = [
       "https://www.artstation.com/skyao",
     ],
   },
-  {
-    name: "Oskar",
-    avatar: "./assets/oskar.jpg",
-    positions: ["Developer"],
-    links: [
-      "https://x.com/oskarscot",
-      "https://github.com/oskarscot",
-    ],
-  }
 ];
 
 function IconLink({
