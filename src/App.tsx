@@ -170,6 +170,7 @@ const people = [
     links: ["https://www.ravensroosts.com/"],
   },
   {
+    name: "Vidde",
     avatar: "./assets/vidde.png",
     positions: ["Builder"],
     links: ["https://www.youtube.com/@AViddeHytale"],
