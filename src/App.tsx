@@ -158,16 +158,10 @@ const people = [
     links: ["https://www.hugotrork.com/", "https://www.youtube.com/@hugotrork"],
   },
   {
-    name: "Evee",
-    avatar: "./assets/evee.png",
-    positions: ["Artist"],
-    links: ["https://eveescrafts.uwu.ai/", "https://x.com/Eveee_cx"],
-  },
-  {
-    name: "Ethan",
-    avatar: "./assets/ethan.png",
-    positions: ["Writer"],
-    links: [],
+    name: "PacificByte",
+    avatar: "./assets/pacificbyte.jpg",
+    positions: ["Developer"],
+    links: ["https://x.com/PacificKB"],
   },
   {
     name: "CrimzonKrow",
@@ -175,17 +169,6 @@ const people = [
     positions: ["Artist"],
     links: ["https://www.ravensroosts.com/"],
   },
-  {
-    name: "Memetheew",
-    avatar: "./assets/memetheew.png",
-    positions: ["Artist"],
-    links: [
-      "https://bento.me/memetheew",
-      "https://x.com/memetheew",
-      "https://www.youtube.com/channel/UC-MS-3uKH_m6LtYRsW3_dXA",
-    ],
-  },
-  {
     name: "Vidde",
     avatar: "./assets/vidde.png",
     positions: ["Builder"],
