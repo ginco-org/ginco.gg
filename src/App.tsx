@@ -345,8 +345,8 @@ export default function App() {
         </div>
         <h1>GINCo</h1>
         <p>
-          We are a game studio creating immersive experiences in Hytale and
-          Minecraft.
+          We are a award winning game studio creating immersive experiences in
+          Hytale and Minecraft.
         </p>
       </section>
       <section id="connect">
